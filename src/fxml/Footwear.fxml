@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="913.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FootwearController">
+   <children>
+      <Pane prefHeight="453.0" prefWidth="192.0" style="-fx-background-color: #caff45;">
+         <children>
+            <Label layoutX="25.0" layoutY="35.0" prefHeight="44.0" prefWidth="138.0" text="Foot Wear" textFill="#c60760">
+               <font>
+                  <Font name="System Bold Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="BUTTON" layoutX="42.0" layoutY="117.0" onMouseClicked="#mens" prefHeight="25.0" prefWidth="70.0" text="MENS" textFill="#00516f">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="BUTTON" layoutX="34.0" layoutY="171.0" onMouseClicked="#ladies" prefHeight="36.0" prefWidth="87.0" text="LADIES" textFill="#00516f">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="BUTTON" layoutX="42.0" layoutY="230.0" onMouseClicked="#kids" prefHeight="17.0" prefWidth="70.0" text="KIDS" textFill="#00516f">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="120.0" fitWidth="123.0" layoutX="32.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resource/gallery-clipart-ganesha-lord-5.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="315.0" fitWidth="225.0" layoutX="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/photo-1568379234276-6306ef71d70e.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="312.0" fitWidth="210.0" layoutX="713.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/photo-1572601809155-8a9f3191b2d9.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="262.0" fitWidth="249.0" layoutX="191.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/photo-1534233650908-b471f2350922.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="200.0" layoutX="440.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/ss20_refresh2_dress.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="315.0" fitWidth="312.0" layoutX="401.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/BIGTREE-Shoes-Women-Pumps-Fashion-Women-Shoes-Block-Heels-Women-Suede-Buckle-Party-High-Heels-Women.jpg_960x960.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="221.0" layoutX="638.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/photo-1581088583905-015641f7add8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="296.0" layoutX="851.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/black-strappy-suedette-stiletto-heels-shoes.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <viewport>
+            <Rectangle2D height="45.0" />
+         </viewport>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="70.0" layoutX="851.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/images%20(4).jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <viewport>
+            <Rectangle2D height="45.0" />
+         </viewport>
+      </ImageView>
+   </children>
+</AnchorPane>

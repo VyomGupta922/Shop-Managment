@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GarmentsController">
+   <children>
+      <Pane prefHeight="442.0" prefWidth="153.0" style="-fx-background-color: #ff4d11;">
+         <children>
+            <Label layoutX="10.0" layoutY="31.0" prefHeight="38.0" prefWidth="133.0" text="Garments" textFill="#431ddb">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="BUTTON" layoutX="38.0" layoutY="94.0" onMouseClicked="#mens" prefHeight="36.0" prefWidth="77.0" text="MENS" textFill="#460505">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="BUTTON" layoutX="44.0" layoutY="152.0" onMouseClicked="#kids" prefHeight="25.0" prefWidth="52.0" text="KIDS" textFill="#3c0303">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="212.0" onMouseClicked="#ladies" prefHeight="34.0" prefWidth="85.0" text="LADIES" textFill="#430303">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="133.0" fitWidth="103.0" layoutX="38.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resource/ganesha-vector-ganesh-design-6.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="442.0" fitWidth="300.0" layoutX="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/gettyimages-504330418-612x612.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="216.0" fitWidth="366.0" layoutX="448.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/images%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="228.0" fitWidth="185.0" layoutX="448.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/indian-bridal-makeup-look-7-819x1024.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="228.0" fitWidth="168.0" layoutX="630.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/0212d4620214940a6b3d8b2ab5800915.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
